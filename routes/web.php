@@ -24,3 +24,15 @@ Route::get('/login', function(){
 Route::get('/laporan', function(){
     return view('laporan.laporan');
 });
+
+Route::get('/artikel', function(){
+    return view('artikel.artikel');
+});
+
+Route::get('/user', function(){
+    return view('user.user');
+});
+
+Route::get('/detail-user', function(){
+    return view('user.detail-user');
+});

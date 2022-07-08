@@ -46,7 +46,7 @@
   <div class="collapse navbar-collapse w-auto " id="sidenav-collapse-main">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link text-white" href="#">
+        <a class="nav-link text-white" href="/">
     
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                 <i class="material-icons opacity-10">dashboard</i>
@@ -54,23 +54,23 @@
 
             <span class="nav-link-text ms-1">Dashboard</span>
         </a>
-    </li>
+      </li>
 
   
     <li class="nav-item">
-    <a class="nav-link text-white " href="#">
+    <a class="nav-link text-white " href="/artikel">
         
         <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
             <i class="material-icons opacity-10">table_view</i>
         </div>
         
-        <span class="nav-link-text ms-1">Article</span>
+        <span class="nav-link-text ms-1">Artikel</span>
     </a>
     </li>
 
   
     <li class="nav-item">
-    <a class="nav-link text-white " href="#">
+    <a class="nav-link text-white " href="/user">
         
         <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
             <i class="material-icons opacity-10">receipt_long</i>
@@ -91,6 +91,17 @@
         <span class="nav-link-text ms-1">Laporan</span>
     </a>
     </li>
+
+    <li class="nav-item mt-5">
+      <a class="nav-link text-white bg-gradient-primary" href="#">
+  
+          <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+              <i class="material-icons opacity-10">logout</i>
+          </div>
+
+          <span class="nav-link-text ms-1">Logout</span>
+      </a>
+  </li>
 </ul>
 </div>
   
